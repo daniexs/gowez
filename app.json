@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Gowez",
+    "slug": "Gowez",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoApp.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBJJ8i1gcnkoBkRx-tqFn9Dam67n2zmJfo"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoApp.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBJJ8i1gcnkoBkRx-tqFn9Dam67n2zmJfo"
+        }
+      },
+      "package": "com.team1.Gowez"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90960037-7044-4004-af81-2df10528ef97"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/90960037-7044-4004-af81-2df10528ef97"
+    }
+  }
+}
